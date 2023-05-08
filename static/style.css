@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-form {
+.result, form {
     max-width: 500px;
     border: 1px;
     border-style: solid;

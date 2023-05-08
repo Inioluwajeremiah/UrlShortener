@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Shorten Url | Result</title>
 </head>
 <body>
-    <div>
-        <p>Reult of Shorten Url</p>
-        {{short_url}}
+    <div class="result">
+        <p>Reult</p>
+        <p class="result_text">{{short_url}}</p>
+       
     </div>
 </body>
 </html>
